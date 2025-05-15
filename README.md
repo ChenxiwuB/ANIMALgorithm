@@ -1,4 +1,3 @@
-
 # ANIMALgorithm
 # Part 1: CNNs.ipynb
 # Facial Keypoint Detection with JAX & Flax

@@ -1,5 +1,16 @@
 # ANIMALgorithm
+# Part 2: Animal algorithm
+To run:  
+# python scripts/reader/py --idx __
+python run.py --idx <image-index>
+   - outputs 4-letter code + matching animal(s).
+
+
+Keypoints labels template:
+![alt text](image.png) 
+
 # Part 1: CNNs.ipynb
+
 # Facial Keypoint Detection with JAX & Flax
 
 This code implements a convolutional neural network in JAX/Flax for detecting 68 facial landmarks on 224×224 grayscale images. It includes data-loading utilities, training/evaluation loops, and prediction scripts.
@@ -33,13 +44,6 @@ conda install -c conda-forge \
 
 # 3. (Optional) Install CPU-only JAX if you do not have CUDA
 #    conda install -c conda-forge jax jaxlib
-
-# Part 2: Animal algorithm
-To run:  
-# python scripts/reader/py --idx __
-python run.py --idx <image-index>
-   - outputs 4-letter code + matching animal(s).
+'''
 
 
-Keypoints labels template:
-![alt text](image.png)
